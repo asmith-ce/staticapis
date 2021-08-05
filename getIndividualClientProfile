@@ -1,0 +1,44 @@
+{
+    "individualClientProfile": {
+        "enterpriseIdentifier": "H19506437D91598664",
+        "personEnterpriseIdentifier": "852273175134830480",
+        "contactDivisions": [
+            {
+                "divisionEnterpriseIdentifier": "G036776632046346633",
+                "contactRoles": [
+                    {
+                        "roleIdentifier": "200002",
+                        "roleName": "Account Owner"
+                    }
+                ],
+                "divisions": [
+                    {
+                        "divisionType": 0,
+                        "divisionDisplayIdentifier": "00308514-0001",
+                        "sourceSystem": {
+                            "sourceSystemLabel": "MERLN"
+                        }
+                    }
+                ]
+            },
+            {
+                "divisionEnterpriseIdentifier": "14459676562040792355",
+                "contactRoles": [
+                    {
+                        "roleIdentifier": "200002",
+                        "roleName": "Account Owner"
+                    }
+                ],
+                "divisions": [
+                    {
+                        "divisionType": 0,
+                        "divisionDisplayIdentifier": "00308515-0001",
+                        "sourceSystem": {
+                            "sourceSystemLabel": "MERLN"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
