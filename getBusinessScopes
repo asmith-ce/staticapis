@@ -1,0 +1,857 @@
+{
+    "roleBusinessScopes": [
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "200003",
+                    "roleTypeName": "Account Administrator"
+                },
+                "roleIdentifier": "200003",
+                "roleName": "Account Administrator",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "2201",
+                    "scopeName": "Add/Remove Bank Account"
+                },
+                {
+                    "scopeIdentifier": "2203",
+                    "scopeName": "Add/Remove Recurring Payment"
+                },
+                {
+                    "scopeIdentifier": "2301",
+                    "scopeName": "Adjust Balance Forward"
+                },
+                {
+                    "scopeIdentifier": "2202",
+                    "scopeName": "Associate Bank Account to Division"
+                },
+                {
+                    "scopeIdentifier": "2101",
+                    "scopeName": "Authorize ACH Payment"
+                },
+                {
+                    "scopeIdentifier": "2302",
+                    "scopeName": "Billing Notifications"
+                },
+                {
+                    "scopeIdentifier": "3001",
+                    "scopeName": "Claim & Leave Insight (CLI)"
+                },
+                {
+                    "scopeIdentifier": "3003",
+                    "scopeName": "Claims Management"
+                },
+                {
+                    "scopeIdentifier": "3002",
+                    "scopeName": "Claims Reports"
+                },
+                {
+                    "scopeIdentifier": "3004",
+                    "scopeName": "Claims Tax Reports"
+                },
+                {
+                    "scopeIdentifier": "1101",
+                    "scopeName": "Disclosure Statements"
+                },
+                {
+                    "scopeIdentifier": "2001",
+                    "scopeName": "Download Employee List"
+                },
+                {
+                    "scopeIdentifier": "2002",
+                    "scopeName": "Download FICA Employees"
+                },
+                {
+                    "scopeIdentifier": "2003",
+                    "scopeName": "Download Prior Month Adjustment employee detail"
+                },
+                {
+                    "scopeIdentifier": "2102",
+                    "scopeName": "Download Remittance Slip"
+                },
+                {
+                    "scopeIdentifier": "2004",
+                    "scopeName": "Download Statement"
+                },
+                {
+                    "scopeIdentifier": "2402",
+                    "scopeName": "Employees(Add/Term/Change/FileUpload)"
+                },
+                {
+                    "scopeIdentifier": "2403",
+                    "scopeName": "Evidence of Insurability"
+                },
+                {
+                    "scopeIdentifier": "2307",
+                    "scopeName": "Go Paperless"
+                },
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                },
+                {
+                    "scopeIdentifier": "2300",
+                    "scopeName": "Manage Statements"
+                },
+                {
+                    "scopeIdentifier": "2100",
+                    "scopeName": "Pay"
+                },
+                {
+                    "scopeIdentifier": "2200",
+                    "scopeName": "Payment Management"
+                },
+                {
+                    "scopeIdentifier": "1102",
+                    "scopeName": "Plans & Forms"
+                },
+                {
+                    "scopeIdentifier": "2306",
+                    "scopeName": "Refresh Statement"
+                },
+                {
+                    "scopeIdentifier": "2303",
+                    "scopeName": "SA Entry"
+                },
+                {
+                    "scopeIdentifier": "2304",
+                    "scopeName": "Unpaid Statements"
+                },
+                {
+                    "scopeIdentifier": "2305",
+                    "scopeName": "Update Statements"
+                },
+                {
+                    "scopeIdentifier": "2005",
+                    "scopeName": "View Balance Forward"
+                },
+                {
+                    "scopeIdentifier": "2401",
+                    "scopeName": "View Employees"
+                },
+                {
+                    "scopeIdentifier": "2006",
+                    "scopeName": "View Historical Statements"
+                },
+                {
+                    "scopeIdentifier": "2007",
+                    "scopeName": "View Payment History"
+                },
+                {
+                    "scopeIdentifier": "2008",
+                    "scopeName": "View Premium Statement Presentment"
+                },
+                {
+                    "scopeIdentifier": "2000",
+                    "scopeName": "View Statements"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "200002",
+                    "roleTypeName": "Account Owner"
+                },
+                "roleIdentifier": "200002",
+                "roleName": "Account Owner",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "2201",
+                    "scopeName": "Add/Remove Bank Account"
+                },
+                {
+                    "scopeIdentifier": "2203",
+                    "scopeName": "Add/Remove Recurring Payment"
+                },
+                {
+                    "scopeIdentifier": "2301",
+                    "scopeName": "Adjust Balance Forward"
+                },
+                {
+                    "scopeIdentifier": "2202",
+                    "scopeName": "Associate Bank Account to Division"
+                },
+                {
+                    "scopeIdentifier": "2101",
+                    "scopeName": "Authorize ACH Payment"
+                },
+                {
+                    "scopeIdentifier": "2302",
+                    "scopeName": "Billing Notifications"
+                },
+                {
+                    "scopeIdentifier": "3001",
+                    "scopeName": "Claim & Leave Insight (CLI)"
+                },
+                {
+                    "scopeIdentifier": "3003",
+                    "scopeName": "Claims Management"
+                },
+                {
+                    "scopeIdentifier": "3002",
+                    "scopeName": "Claims Reports"
+                },
+                {
+                    "scopeIdentifier": "3004",
+                    "scopeName": "Claims Tax Reports"
+                },
+                {
+                    "scopeIdentifier": "1101",
+                    "scopeName": "Disclosure Statements"
+                },
+                {
+                    "scopeIdentifier": "2001",
+                    "scopeName": "Download Employee List"
+                },
+                {
+                    "scopeIdentifier": "2002",
+                    "scopeName": "Download FICA Employees"
+                },
+                {
+                    "scopeIdentifier": "2003",
+                    "scopeName": "Download Prior Month Adjustment employee detail"
+                },
+                {
+                    "scopeIdentifier": "2102",
+                    "scopeName": "Download Remittance Slip"
+                },
+                {
+                    "scopeIdentifier": "2004",
+                    "scopeName": "Download Statement"
+                },
+                {
+                    "scopeIdentifier": "2402",
+                    "scopeName": "Employees(Add/Term/Change/FileUpload)"
+                },
+                {
+                    "scopeIdentifier": "2403",
+                    "scopeName": "Evidence of Insurability"
+                },
+                {
+                    "scopeIdentifier": "2307",
+                    "scopeName": "Go Paperless"
+                },
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                },
+                {
+                    "scopeIdentifier": "2300",
+                    "scopeName": "Manage Statements"
+                },
+                {
+                    "scopeIdentifier": "1001",
+                    "scopeName": "Onboarding & NLOC"
+                },
+                {
+                    "scopeIdentifier": "2100",
+                    "scopeName": "Pay"
+                },
+                {
+                    "scopeIdentifier": "2200",
+                    "scopeName": "Payment Management"
+                },
+                {
+                    "scopeIdentifier": "1102",
+                    "scopeName": "Plans & Forms"
+                },
+                {
+                    "scopeIdentifier": "2306",
+                    "scopeName": "Refresh Statement"
+                },
+                {
+                    "scopeIdentifier": "2303",
+                    "scopeName": "SA Entry"
+                },
+                {
+                    "scopeIdentifier": "2304",
+                    "scopeName": "Unpaid Statements"
+                },
+                {
+                    "scopeIdentifier": "2305",
+                    "scopeName": "Update Statements"
+                },
+                {
+                    "scopeIdentifier": "4003",
+                    "scopeName": "User Management"
+                },
+                {
+                    "scopeIdentifier": "2005",
+                    "scopeName": "View Balance Forward"
+                },
+                {
+                    "scopeIdentifier": "2401",
+                    "scopeName": "View Employees"
+                },
+                {
+                    "scopeIdentifier": "2006",
+                    "scopeName": "View Historical Statements"
+                },
+                {
+                    "scopeIdentifier": "2007",
+                    "scopeName": "View Payment History"
+                },
+                {
+                    "scopeIdentifier": "2008",
+                    "scopeName": "View Premium Statement Presentment"
+                },
+                {
+                    "scopeIdentifier": "2000",
+                    "scopeName": "View Statements"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "200200",
+                    "roleTypeName": "Billing Administrator"
+                },
+                "roleIdentifier": "200201",
+                "roleName": "Billing Update",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "2301",
+                    "scopeName": "Adjust Balance Forward"
+                },
+                {
+                    "scopeIdentifier": "2101",
+                    "scopeName": "Authorize ACH Payment"
+                },
+                {
+                    "scopeIdentifier": "2302",
+                    "scopeName": "Billing Notifications"
+                },
+                {
+                    "scopeIdentifier": "2001",
+                    "scopeName": "Download Employee List"
+                },
+                {
+                    "scopeIdentifier": "2002",
+                    "scopeName": "Download FICA Employees"
+                },
+                {
+                    "scopeIdentifier": "2003",
+                    "scopeName": "Download Prior Month Adjustment employee detail"
+                },
+                {
+                    "scopeIdentifier": "2102",
+                    "scopeName": "Download Remittance Slip"
+                },
+                {
+                    "scopeIdentifier": "2004",
+                    "scopeName": "Download Statement"
+                },
+                {
+                    "scopeIdentifier": "2307",
+                    "scopeName": "Go Paperless"
+                },
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                },
+                {
+                    "scopeIdentifier": "2300",
+                    "scopeName": "Manage Statements"
+                },
+                {
+                    "scopeIdentifier": "2100",
+                    "scopeName": "Pay"
+                },
+                {
+                    "scopeIdentifier": "1102",
+                    "scopeName": "Plans & Forms"
+                },
+                {
+                    "scopeIdentifier": "2306",
+                    "scopeName": "Refresh Statement"
+                },
+                {
+                    "scopeIdentifier": "2303",
+                    "scopeName": "SA Entry"
+                },
+                {
+                    "scopeIdentifier": "2304",
+                    "scopeName": "Unpaid Statements"
+                },
+                {
+                    "scopeIdentifier": "2305",
+                    "scopeName": "Update Statements"
+                },
+                {
+                    "scopeIdentifier": "2005",
+                    "scopeName": "View Balance Forward"
+                },
+                {
+                    "scopeIdentifier": "2006",
+                    "scopeName": "View Historical Statements"
+                },
+                {
+                    "scopeIdentifier": "2007",
+                    "scopeName": "View Payment History"
+                },
+                {
+                    "scopeIdentifier": "2008",
+                    "scopeName": "View Premium Statement Presentment"
+                },
+                {
+                    "scopeIdentifier": "2000",
+                    "scopeName": "View Statements"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "200200",
+                    "roleTypeName": "Billing Administrator"
+                },
+                "roleIdentifier": "200202",
+                "roleName": "Billing View",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "2001",
+                    "scopeName": "Download Employee List"
+                },
+                {
+                    "scopeIdentifier": "2002",
+                    "scopeName": "Download FICA Employees"
+                },
+                {
+                    "scopeIdentifier": "2003",
+                    "scopeName": "Download Prior Month Adjustment employee detail"
+                },
+                {
+                    "scopeIdentifier": "2004",
+                    "scopeName": "Download Statement"
+                },
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                },
+                {
+                    "scopeIdentifier": "1102",
+                    "scopeName": "Plans & Forms"
+                },
+                {
+                    "scopeIdentifier": "2005",
+                    "scopeName": "View Balance Forward"
+                },
+                {
+                    "scopeIdentifier": "2006",
+                    "scopeName": "View Historical Statements"
+                },
+                {
+                    "scopeIdentifier": "2007",
+                    "scopeName": "View Payment History"
+                },
+                {
+                    "scopeIdentifier": "2008",
+                    "scopeName": "View Premium Statement Presentment"
+                },
+                {
+                    "scopeIdentifier": "2000",
+                    "scopeName": "View Statements"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "200300",
+                    "roleTypeName": "Claims Administrator"
+                },
+                "roleIdentifier": "200303",
+                "roleName": "Claims Reporting",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "3001",
+                    "scopeName": "Claim & Leave Insight (CLI)"
+                },
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "200300",
+                    "roleTypeName": "Claims Administrator"
+                },
+                "roleIdentifier": "200301",
+                "roleName": "Claims Update",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "3003",
+                    "scopeName": "Claims Management"
+                },
+                {
+                    "scopeIdentifier": "3002",
+                    "scopeName": "Claims Reports"
+                },
+                {
+                    "scopeIdentifier": "3004",
+                    "scopeName": "Claims Tax Reports"
+                },
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                },
+                {
+                    "scopeIdentifier": "1102",
+                    "scopeName": "Plans & Forms"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "200300",
+                    "roleTypeName": "Claims Administrator"
+                },
+                "roleIdentifier": "200302",
+                "roleName": "Claims View",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "3002",
+                    "scopeName": "Claims Reports"
+                },
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                },
+                {
+                    "scopeIdentifier": "1102",
+                    "scopeName": "Plans & Forms"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "300000",
+                    "roleTypeName": "Employee"
+                },
+                "roleIdentifier": "300000",
+                "roleName": "Employee",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "200100",
+                    "roleTypeName": "Employee Administrator"
+                },
+                "roleIdentifier": "200101",
+                "roleName": "Employee Update",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "2402",
+                    "scopeName": "Employees(Add/Term/Change/FileUpload)"
+                },
+                {
+                    "scopeIdentifier": "2403",
+                    "scopeName": "Evidence of Insurability"
+                },
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                },
+                {
+                    "scopeIdentifier": "1102",
+                    "scopeName": "Plans & Forms"
+                },
+                {
+                    "scopeIdentifier": "2401",
+                    "scopeName": "View Employees"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "200100",
+                    "roleTypeName": "Employee Administrator"
+                },
+                "roleIdentifier": "200102",
+                "roleName": "Employee View",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "2403",
+                    "scopeName": "Evidence of Insurability"
+                },
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                },
+                {
+                    "scopeIdentifier": "1102",
+                    "scopeName": "Plans & Forms"
+                },
+                {
+                    "scopeIdentifier": "2401",
+                    "scopeName": "View Employees"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "200200",
+                    "roleTypeName": "Billing Administrator"
+                },
+                "roleIdentifier": "200203",
+                "roleName": "Modify Payment Options",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "2201",
+                    "scopeName": "Add/Remove Bank Account"
+                },
+                {
+                    "scopeIdentifier": "2203",
+                    "scopeName": "Add/Remove Recurring Payment"
+                },
+                {
+                    "scopeIdentifier": "2202",
+                    "scopeName": "Associate Bank Account to Division"
+                },
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                },
+                {
+                    "scopeIdentifier": "2200",
+                    "scopeName": "Payment Management"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "400000",
+                    "roleTypeName": "Third Party Administrator"
+                },
+                "roleIdentifier": "400001",
+                "roleName": "Proxy Administrator",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                },
+                {
+                    "scopeIdentifier": "4002",
+                    "scopeName": "Third Party Administration"
+                }
+            ]
+        },
+        {
+            "role": {
+                "roleType": {
+                    "roleTypeIdentifier": "500000",
+                    "roleTypeName": "Service Specialist"
+                },
+                "roleIdentifier": "500000",
+                "roleName": "Service Specialist",
+                "roleTerminationDate": null
+            },
+            "businessScopes": [
+                {
+                    "scopeIdentifier": "2201",
+                    "scopeName": "Add/Remove Bank Account"
+                },
+                {
+                    "scopeIdentifier": "2203",
+                    "scopeName": "Add/Remove Recurring Payment"
+                },
+                {
+                    "scopeIdentifier": "2301",
+                    "scopeName": "Adjust Balance Forward"
+                },
+                {
+                    "scopeIdentifier": "2202",
+                    "scopeName": "Associate Bank Account to Division"
+                },
+                {
+                    "scopeIdentifier": "2101",
+                    "scopeName": "Authorize ACH Payment"
+                },
+                {
+                    "scopeIdentifier": "2302",
+                    "scopeName": "Billing Notifications"
+                },
+                {
+                    "scopeIdentifier": "3001",
+                    "scopeName": "Claim & Leave Insight (CLI)"
+                },
+                {
+                    "scopeIdentifier": "3003",
+                    "scopeName": "Claims Management"
+                },
+                {
+                    "scopeIdentifier": "3002",
+                    "scopeName": "Claims Reports"
+                },
+                {
+                    "scopeIdentifier": "3004",
+                    "scopeName": "Claims Tax Reports"
+                },
+                {
+                    "scopeIdentifier": "4004",
+                    "scopeName": "Compensation"
+                },
+                {
+                    "scopeIdentifier": "1101",
+                    "scopeName": "Disclosure Statements"
+                },
+                {
+                    "scopeIdentifier": "2001",
+                    "scopeName": "Download Employee List"
+                },
+                {
+                    "scopeIdentifier": "2002",
+                    "scopeName": "Download FICA Employees"
+                },
+                {
+                    "scopeIdentifier": "2003",
+                    "scopeName": "Download Prior Month Adjustment employee detail"
+                },
+                {
+                    "scopeIdentifier": "2102",
+                    "scopeName": "Download Remittance Slip"
+                },
+                {
+                    "scopeIdentifier": "2004",
+                    "scopeName": "Download Statement"
+                },
+                {
+                    "scopeIdentifier": "2402",
+                    "scopeName": "Employees(Add/Term/Change/FileUpload)"
+                },
+                {
+                    "scopeIdentifier": "2403",
+                    "scopeName": "Evidence of Insurability"
+                },
+                {
+                    "scopeIdentifier": "5002",
+                    "scopeName": "Forms - Change of Broker"
+                },
+                {
+                    "scopeIdentifier": "2307",
+                    "scopeName": "Go Paperless"
+                },
+                {
+                    "scopeIdentifier": "4001",
+                    "scopeName": "Home"
+                },
+                {
+                    "scopeIdentifier": "2300",
+                    "scopeName": "Manage Statements"
+                },
+                {
+                    "scopeIdentifier": "1001",
+                    "scopeName": "Onboarding & NLOC"
+                },
+                {
+                    "scopeIdentifier": "2100",
+                    "scopeName": "Pay"
+                },
+                {
+                    "scopeIdentifier": "2200",
+                    "scopeName": "Payment Management"
+                },
+                {
+                    "scopeIdentifier": "1102",
+                    "scopeName": "Plans & Forms"
+                },
+                {
+                    "scopeIdentifier": "5001",
+                    "scopeName": "Quotes/RFPS"
+                },
+                {
+                    "scopeIdentifier": "5003",
+                    "scopeName": "Quotes/RFPS - Individual - Multi-Life Add On"
+                },
+                {
+                    "scopeIdentifier": "2306",
+                    "scopeName": "Refresh Statement"
+                },
+                {
+                    "scopeIdentifier": "2303",
+                    "scopeName": "SA Entry"
+                },
+                {
+                    "scopeIdentifier": "4002",
+                    "scopeName": "Third Party Administration"
+                },
+                {
+                    "scopeIdentifier": "2304",
+                    "scopeName": "Unpaid Statements"
+                },
+                {
+                    "scopeIdentifier": "2305",
+                    "scopeName": "Update Statements"
+                },
+                {
+                    "scopeIdentifier": "4003",
+                    "scopeName": "User Management"
+                },
+                {
+                    "scopeIdentifier": "2005",
+                    "scopeName": "View Balance Forward"
+                },
+                {
+                    "scopeIdentifier": "2401",
+                    "scopeName": "View Employees"
+                },
+                {
+                    "scopeIdentifier": "2006",
+                    "scopeName": "View Historical Statements"
+                },
+                {
+                    "scopeIdentifier": "2007",
+                    "scopeName": "View Payment History"
+                },
+                {
+                    "scopeIdentifier": "2008",
+                    "scopeName": "View Premium Statement Presentment"
+                },
+                {
+                    "scopeIdentifier": "2000",
+                    "scopeName": "View Statements"
+                }
+            ]
+        }
+    ]
+}
