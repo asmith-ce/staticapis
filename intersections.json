@@ -1,11 +1,13 @@
 {
-    "itsLocation": {
+    "intersections": {
         "x":{
             "a":"owner",
             "b":"owner",
             "c":"owner",
             "d":"owner",
-            "e":"owner"
+            "e":"owner",
+            "o":"full_access",
+            "p":"full_access"
         },
         "y":{
             "a":"view_data",
@@ -21,7 +23,7 @@
             "p":"maintenance"
         }
     },
-    "fringe":{
+    "devices":{
         "x":{
             "a":"owner",
             "b":"owner",
@@ -84,11 +86,7 @@
     },
     "hardware_equipment": {
         "x":{
-            "a":"owner",
-            "b":"owner",
-            "c":"owner",
-            "d":"owner",
-            "e":"owner",
+ 
             "m":"owner",
             "n":"owner",
             "o":"owner",
