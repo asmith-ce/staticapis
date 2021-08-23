@@ -13,152 +13,19 @@
             "a":"view_data",
             "b":"view_data",
             "c":"view_data",
-            "d":"view_data",
-            "e":"view_data"
-        },
-        "z":{
-            "d":"maintenance",
-            "e":"maintenance",
-            "o":"maintenance",
-            "p":"maintenance"
-        }
-    },
-    "devices":{
-        "x":{
-            "a":"owner",
-            "b":"owner",
-            "c":"owner",
-            "d":"owner",
-            "e":"owner",
-            "o":"full_access",
-            "p":"full_access"
-        },
-        "y":{
-            "m":"owner",
-            "n":"owner",
-            "o":"owner",
-            "p":"owner",
-            "d":"full_access",
-            "e":"full_access"
-        }
-    },
-    "transitLines": {
-        "x":{
-            "a":"owner",
-            "b":"owner",
-            "c":"owner",
-            "d":"owner",
-            "e":"owner"
-        },
-        "y":{
             "m":"owner",
             "n":"owner",
             "o":"owner",
             "p":"owner"
-        },
-        "z":{
-            "d":"maintenance",
-            "e":"maintenance",
-            "o":"maintenance",
-            "p":"maintenance"
-        }
-    },
-    "preemption": {
-        "x":{
-            "a":"owner",
-            "b":"owner",
-            "c":"owner",
-            "d":"owner",
-            "e":"owner"
-        },
-        "y":{
-            "m":"owner",
-            "n":"owner",
-            "o":"owner",
-            "p":"owner"
-        },
-        "z":{
-            "d":"preempt",
-            "e":"preempt",
-            "o":"preempt",
-            "p":"preempt"
-        }
-    },
-    "hardware_equipment": {
-        "x":{
- 
-            "m":"owner",
-            "n":"owner",
-            "o":"owner",
-            "p":"owner"
-        },
-        "y":{
-            "a":"full_access",
-            "b":"full_access",
-            "c":"full_access",
-            "d":"full_access",
-            "e":"full_access"
+
         },
         "z":{
             "m":"full_access",
             "n":"full_access",
-            "o":"full_access",
-            "p":"full_access"
+            "d":"maintenance",
+            "e":"maintenance",
+            "o":"preempt",
+            "p":"preempt"
         }
-    },
-    "video_police": {
-        "x":{
-            "a":"owner",
-            "b":"owner",
-            "c":"owner",
-            "d":"owner",
-            "e":"owner"
-        },
-        "y":{
-            "a":"video_only",
-            "b":"video_only",
-            "c":"video_only",
-            "d":"video_only",
-            "e":"video_only"
-        }
-    },
-    "distributor": {
-        "y":{
-            "a":"owner",
-            "b":"owner",
-            "c":"owner",
-            "d":"owner",
-            "e":"owner"
-        },
-        "z":{
-            "m":"owner",
-            "n":"owner",
-            "o":"owner",
-            "p":"owner"
-        },
-        "x":{
-            "a":"video_only",
-            "b":"video_only",
-            "c":"video_only",
-            "d":"video_only",
-            "e":"video_only",
-            "m":"video_only",
-            "n":"video_only",
-            "o":"video_only",
-            "p":"video_only"
-        }
-    },
-    "studies": {
-        "x":{
-            "2015-a":"owner",
-            "2015-b":"owner",
-            "2015-c":"owner",
-            "2015-d":"owner"
-        },
-        "y":{
-            "2015-a":"view_study",
-            "2015-b":"view_study"
-        }
-    }
-    
+    }  
 }
