@@ -1,5 +1,5 @@
 {
-    "intersections": {
+    "permissions": {
         "x":{
             "a":"owner",
             "b":"owner",
